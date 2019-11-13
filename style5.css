@@ -1,0 +1,333 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+}
+.container{
+	position:relative;
+	width:100%;
+}
+.nav{
+	width:100%;
+	height:20vh;
+	text-transform:uppercase;
+}
+.nav h1{
+	text-align:center;
+	margin:2% 0%;
+	font-size:45px;
+}
+.nav ul{
+	width:60%;
+	position:relative;
+	left:20%;
+	top:25%;
+}
+.nav ul li{
+	float:left;
+	margin-left:7%;
+	font-size:22px;
+}
+.clear{
+	clear:both;
+}
+.nav ul li:hover{
+	transform:scale(1.5);
+	transition-duration:1s;
+}
+.foodimg{
+	width:50%;
+	height:60vh;
+	margin-top:10vh;
+	background-image:url('images/20-3-large.jpg');
+	background-size:100% 100%;
+	border:none;
+	position:relative;
+	animation-name:heading;
+	animation-duration:3s;
+	animation-delay:1s;
+	animation-fill-mode:forwards;
+}
+@keyframes heading{
+	from{left:-600px;}
+	to{left:0px;}
+}
+.foodimg:hover{
+	transform:scale(.9);
+	transition-duration:3s;
+}
+.food-order{
+	width:50%;
+	height:60vh;
+	position:absolute;
+	top:43vh;
+	right:0px;
+	text-align:center;
+}
+.food-order h1{
+	text-transform:uppercase;
+	font-size:50px;
+	position:relative;
+	top:-60px;
+	animation-name:head;
+	animation-duration:3s;
+	animation-delay:2s;
+	animation-fill-mode:forwards;
+}
+@keyframes head{
+	from{right:-600px;}
+	to{right:0px;}
+}
+.food-order p{
+	width:80%;
+	font-size:18px;
+	color:#323232;
+	margin:5% auto;
+	position:relative;
+	animation-name:hea;
+	animation-duration:3s;
+	animation-delay:3s;
+	animation-fill-mode:forwards;
+}
+@keyframes hea{
+	from{right:-600px;}
+	to{right:0px;}
+}
+.food-order button{
+	width:20%;
+	height:10%;
+	border-radius:20px;
+	border:none;
+	outline-style:none;
+	text-transform:uppercase;
+	font-size:20px;
+	background-image:linear-gradient(to left,teal,transparent);
+	position:relative;
+	animation-name:head;
+	animation-duration:3s;
+	animation-delay:4s;
+	animation-fill-mode:forwards;
+}
+@keyframes head{
+	from{right:-600px;}
+	to{right:0px;}
+}
+.food-order button:hover{
+	cursor:pointer;
+	background-image:linear-gradient(to right,teal,transparent);
+	color:whitesmoke;
+	box-shadow:5px -5px 2px 3px black;
+}
+.food-order:hover{
+	transform:scale(.9);
+	transition-duration:3s;
+}
+.products {
+	position:relative;
+	height:120vh;
+}
+.products h1{
+	text-align:center;
+	margin:6% 0%;
+	font-size:45px;
+	text-transform:uppercase;
+}
+.c1{
+	width:200px;
+	height:300px;
+	transition:2s;
+	float:left;
+	margin-left:110px;
+	margin-bottom:7%;
+	border-radius:20px;
+}
+.c1:nth-child(2){
+	background-image:url('images/1.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.c1:nth-child(3){
+	background-image:url('images/5d605a4b2e22af4e0b4f41d2-1920-1440.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.c1:nth-child(4){
+	background-image:url('images/Cheap-Fast-Food-Options-McDonalds.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.c1:nth-child(5){
+	background-image:url('images/c19_eatdrink_overview_somuchfood_v1.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.c1:nth-child(6){
+	background-image:url('images/45132.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.c1:nth-child(7){
+	background-image:url('images/11861111-chef-man-.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.c1:nth-child(8){
+	background-image:url('images/Brian-Young-TopChef.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.c1:nth-child(9){
+	background-image:url('images/chefimage.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+.c1:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c2:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c3:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c4:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c5:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c6:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c7:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c8:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.c9:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px black;
+}
+.porfilio {
+	position:relative;
+	height:120vh;
+}
+.porfilio h1{
+	text-align:center;
+	margin:6% 0%;
+	font-size:45px;
+	text-transform:uppercase;
+}
+.p1{
+	width:200px;
+	height:300px;
+	transition:2s;
+	float:left;
+	margin-left:250px;
+	margin-bottom:7%;
+	border-radius:20px;
+	text-align:center;
+}
+.p1 h2{
+	margin-top:100px;
+	text-transform:uppercase;
+	color:transparent;
+}
+
+.p1:nth-child(2){
+	background-image:url('images/45132.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.p1:nth-child(3){
+	background-image:url('images/11861111-chef-man-.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.p1:nth-child(4){
+	background-image:url('images/Brian-Young-TopChef.jpg');
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+.p1:nth-child(5){
+	background-image:url('images/chefimage.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.p1:nth-child(6){
+	background-image:url('images/chef-making-ok-sign-white-background_1368-2804.jpg');
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+.p1:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+	color:white;
+}
+.p1:hover h2{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	color:white;
+}
+.p2:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+}
+.p3:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+}
+.p4:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+}
+.p5:hover{
+	transform:rotate(0deg);
+	transform:scale(1.2);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+}
+.p6:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+	box-shadow:5px -3px 5px 5px #F98E77;
+}
